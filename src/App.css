@@ -2,9 +2,31 @@
   text-align: center;
 }
 
+.bkGif {
+  background-image: url(background.gif);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.roomfac {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -32,6 +54,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
